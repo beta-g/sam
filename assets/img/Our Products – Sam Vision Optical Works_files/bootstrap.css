@@ -1,0 +1,243 @@
+/*!
+ * Generated using the Bootstrap Customizer (https://getbootstrap.com/docs/3.4/customize/)
+ */
+
+
+/*!
+ * Bootstrap v3.4.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+.modal_specfit-open {
+    overflow: hidden;
+}
+
+.modal_specfit {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+}
+
+.modal_specfit.fade .modal_specfit-dialog {
+    -webkit-transform: translate(0, -25%);
+    -ms-transform: translate(0, -25%);
+    -o-transform: translate(0, -25%);
+    transform: translate(0, -25%);
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+    -o-transition: -o-transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+}
+
+.modal_specfit.in .modal_specfit-dialog {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+
+.modal_specfit-open .modal_specfit {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.modal_specfit-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px;
+}
+
+.modal_specfit-content {
+    position: relative;
+    background-color: #ffffff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999999;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    outline: 0;
+}
+
+.modal_specfit-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #000000;
+}
+
+.modal_specfit-backdrop.fade {
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+
+.modal_specfit-backdrop.in {
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+
+.modal_specfit-header {
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.modal_specfit-header .close {
+    margin-top: -2px;
+}
+
+.modal_specfit-title {
+    margin: 0;
+    line-height: 1.42857143;
+}
+
+.modal_specfit-body {
+    position: relative;
+    padding: 15px;
+}
+
+.modal_specfit-footer {
+    padding: 15px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5;
+}
+
+.modal_specfit-footer .btn+.btn {
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+
+.modal_specfit-footer .btn-group .btn+.btn {
+    margin-left: -1px;
+}
+
+.modal_specfit-footer .btn-block+.btn-block {
+    margin-left: 0;
+}
+
+.modal_specfit-scrollbar-measure {
+    position: absolute;
+    top: -9999px;
+    width: 50px;
+    height: 50px;
+    overflow: scroll;
+}
+
+@media (min-width: 768px) {
+    .modal_specfit-dialog {
+        width: 600px;
+        margin: 30px auto;
+    }
+    .modal_specfit-content {
+        -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    }
+    .modal_specfit-sm {
+        width: 300px;
+    }
+}
+
+@media (min-width: 992px) {
+    .modal_specfit-lg {
+        width: 900px;
+    }
+}
+
+.clearfix:before,
+.clearfix:after,
+.modal_specfit-header:before,
+.modal_specfit-header:after,
+.modal_specfit-footer:before,
+.modal_specfit-footer:after {
+    display: table;
+    content: " ";
+}
+
+.clearfix:after,
+.modal_specfit-header:after,
+.modal_specfit-footer:after {
+    clear: both;
+}
+
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.pull-left {
+    float: left !important;
+}
+
+.hide {
+    display: none !important;
+}
+
+.show {
+    display: block !important;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.text-hide {
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.affix {
+    position: fixed;
+}
+
+.close {
+    float: right;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    color: #000000;
+    text-shadow: 0 1px 0 #ffffff;
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+}
+
+.close:hover,
+.close:focus {
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+button.close {
+    padding: 0;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    -webkit-appearance: none;
+}
